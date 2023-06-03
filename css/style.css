@@ -1,0 +1,134 @@
+/* @import url('https://fonts.googleapis.com/css?family=Permanent+Marker'); */
+
+@media (max-width : 768px) {
+	.navbar-brand {
+		color: rgb(195, 233, 71);
+		transition-delay: 0.2s;
+
+	}
+}
+
+html {
+	height: 100%;
+}
+
+/* 
+* {
+	margin: 0;
+	padding: 0;
+  } */
+
+body {
+
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	line-height: 1.8;
+	background-color: #ffe9e9;
+	min-height: 100%;
+	color: #000000;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.loves {
+	font-size: larger;
+	font-weight: bold;
+	color: darkslategray;
+}
+
+.no-dot {
+	list-style: none;
+	text-align: left;
+
+
+}
+
+.nav {
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: darkslategray;
+}
+
+a.navbar-brand {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/* color: #551a8b; */
+	font-size: 60px;
+	font-weight: 600;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.list-center {
+	text-align: center;
+}
+
+.nav-item {
+
+	padding: 15px;
+	cursor: pointer;
+}
+
+.nav-item a {
+
+	text-decoration: none;
+	color: white;
+}
+
+.nav-item a:hover {
+	text-decoration: underline;
+}
+
+a.nav-link.active {
+	font-weight: 650;
+}
+
+.intro {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	text-align: justify;
+	color: #4a4646;
+	background-color: rgb(250, 245, 239);
+	padding: 10px;
+	text-align: center;
+}
+
+h5 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+	font-size: 25px;
+	font-weight: 600;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.navbar-toggler {
+	width: 50px;
+	height: 40px;
+	background-color: rgba(167, 122, 175, 0.662);
+	border-color: black;
+	border: 40%;
+	border-radius: 20px;
+}
+
+
+
+.bg-light {
+	border-color: #ffffff;
+}
+
+
+.footer {
+	background-color: #ffffff;
+	margin: 0px, 0px;
+	padding: 0px, 0px;
+}
